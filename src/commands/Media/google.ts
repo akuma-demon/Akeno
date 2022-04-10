@@ -9,7 +9,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'google',
             aliases: ['g', 'search'],
-            description: 'Search on the web ',
+            description: 'Search on the Google ',
             category: 'media',
             usage: `${client.config.prefix}google [query]`,
             baseXp: 10
