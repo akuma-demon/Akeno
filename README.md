@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://ibb.co/SKXCZHR"><img src="https://i.ibb.co/JzRJS85/2258810.jpg" alt="2258810" border="0" /></a>
+<a href="https://ibb.co/6P3BsqY"><img src="https://i.ibb.co/2tDNKpq/21-akeno-wallpaper-Images-of-Akeno-Himejima-Wallpaper-industrious-info.png" alt="21-akeno-wallpaper-Images-of-Akeno-Himejima-Wallpaper-industrious-info" border="0"></a>
 
 # **NEZUKO : ANIME THEMED WHATSAPP BOT WITH RICH FEATURES**
 
