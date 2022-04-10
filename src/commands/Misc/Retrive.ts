@@ -9,7 +9,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'retrieve',
-            description: 'Well....',
+            description: 'Retrieving....',
             adminOnly: true,
             category: 'misc',
             usage: `${client.config.prefix}retrieve`
@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
         if (!M.quoted) return void (await M.reply(`Please quote the message you want to retrive`))
         if (!(M?.quoted?.message?.message as any)?.viewOnceMessage?.message?.imageMessage)
-            return void M.reply('Tag the "viewOnceMessage" that you want to retrive')
+            return void M.reply('Tag the "view Once Message" that you want to retrive')
         return void M.reply(
             await this.client.downloadMediaMessage((M.quoted.message?.message as any).viewOnceMessage),
             MessageType.image,
