@@ -9,7 +9,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'ytvideo',
-            description: 'Downloads given YT Video',
+            description: 'Downloads provided YT Video and sends it',
             category: 'media',
             aliases: ['ytv'],
             usage: `${client.config.prefix}ytv [URL]`,
