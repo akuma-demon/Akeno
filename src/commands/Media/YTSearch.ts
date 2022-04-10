@@ -9,7 +9,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'ytsearch',
-            description: 'Searches YT',
+            description: 'Searches the provided term of YT',
             category: 'media',
             aliases: ['yts'],
             usage: `${client.config.prefix}yts [term]`,
