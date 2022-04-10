@@ -9,7 +9,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'retrieve',
-            description: 'retrieve viewOnceMessage WhatsApp Message',
+            description: 'retrieve any view Once type WhatsApp Messages',
             category: 'media',
             usage: `${client.config.prefix}retrieve [Tag the viewOnceMessage]`,
             baseXp: 10
