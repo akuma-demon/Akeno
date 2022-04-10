@@ -36,7 +36,7 @@ export default class Command extends BaseCommand {
 
         if (!M.groupMetadata?.admins?.includes(this.client.user.jid))
 
-            return void M.reply(`I'm not an admin of this group.`)
+            return void M.reply(`I am not an admin of this group. Pls make me admin to use this command.`)
 
         if ((await this.client.getGroupData(M.from)).invitelink) {
 
