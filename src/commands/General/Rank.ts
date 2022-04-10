@@ -47,7 +47,7 @@ run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
         } else if (exp < 100000) {
             role = '💎 Supreme'
         } else {
-            role = '❄️ Mystic'
+            role = '💀 Demon Lord'
         }
 
         let level
