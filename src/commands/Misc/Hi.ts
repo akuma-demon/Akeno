@@ -9,7 +9,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'hi',
-            description: 'Say hi to the bot.',
+            description: 'Say hi to the Akeno Bot.',
             category: 'misc',
             usage: `${client.config.prefix}hi`
         })
