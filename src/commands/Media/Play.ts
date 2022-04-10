@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'play',
-            description: '🎵 play a song with just search term!',
+            description: '🎶 play a song by just search term!',
             category: 'media',
             aliases: ['music'],
             usage: `${client.config.prefix}play [term]`,
@@ -32,7 +32,7 @@ export default class Command extends BaseCommand {
                 contextInfo: {
                     externalAdReply: {
                         title: videos[0].title.substr(0, 30),
-                        body: `author : ${videos[0].author.name.substr(0, 20)}\n❤️ NEZUKO ❤️`,
+                        body: `author : ${videos[0].author.name.substr(0, 20)}\n⚡ AKENO ⚡`,
                         mediaType: 2,
                         thumbnailUrl: `https://i.ytimg.com/vi/${audio.id}/hqdefault.jpg`,
                         mediaUrl: audio.url
