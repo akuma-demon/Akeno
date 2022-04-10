@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'ig',
             aliases: ['ur', 'ig'],
-            description: 'Get the info of a user from ig ',
+            description: 'Get the info of a user from Instagram ',
             category: 'media',
             dm: true,
             usage: `${client.config.prefix}iguser [name]`
@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
 	
 	    run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
         
-        if (!joined) return void M.reply('Provide the keywords you wanna search, Baka!')
+        if (!joined) return void M.reply('Pls provide the keywords you want to search, Baka!')
         const chitoge = joined.trim()
         console.log(chitoge)
         const { data } = await axios.get(`https://api-xcoders.xyz/api/stalk/ig?username=${chitoge}&apikey=LJowCce5Pn`)
@@ -31,7 +31,7 @@ export default class Command extends BaseCommand {
         while (true) {
             try {
                 M.reply(
-                    buffer || '🌟 An error occurred. Please try again later',
+                    buffer || '⚠️ An error occurred. Please try again later',
                     MessageType.image,
                     undefined,
                     undefined,
@@ -40,7 +40,7 @@ export default class Command extends BaseCommand {
                 ).catch((e) => {
                     console.log(`This error occurs when an image is sent via M.reply()\n Child Catch Block : \n${e}`)
                     // console.log('Failed')
-                    M.reply(`🌟An error occurred. Please try again later.`)
+                    M.reply(`⚠️ An error occurred. Please try again later.`)
                 })
                 break
             } catch (e) {
