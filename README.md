@@ -28,7 +28,7 @@ Button : If you are deploying from a fork
 -   Totally free to use and distributed by [Fantox](https://github.com/FantoX001)
 -   Written in [TypeScript](https://www.typescriptlang.org/)
 -   Built with [Baileys](https://github.com/adiwajshing/baileys) (The Best
-    WhatsApp Library Out There)
+    WhatsApp Library Out Available There)
 
 ## 💻 Deploy/Hosting Guide
 
