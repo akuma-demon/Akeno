@@ -21,7 +21,7 @@ Button : If you are deploying from a fork
 </div><br/>
 <br/>
 
-## ✨ Highlights
+## ✨ Highlights of Akeno Bot
 
 -   Fully Modular Design
 -   Easy to use
