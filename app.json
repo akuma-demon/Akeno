@@ -1,5 +1,5 @@
 {
-    "name": "Nezuko",
+    "name": "Akeno",
     "description": "Maintained Fork of Void",
     "keywords": [
         "bot",
@@ -11,8 +11,8 @@
         "whatsapp-sticker-bot",
         "whatsapp-botto"
     ],
-    "website": "https://github.com/Toshiro223/Nezuko#readme",
-    "repository": "https://github.com/Toshiro223/Nezuko.git",
+    "website": "https://github.com/FantoX001/Akeno-Whatsapp-Bot#readme",
+    "repository": "https://github.com/FantoX001/Akeno.git",
     "logo": "https://www.linkpicture.com/q/2258810.jpg",
     "success_url": "/",
     "env": {
