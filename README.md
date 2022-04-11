@@ -24,6 +24,7 @@ Button : If you are deploying from a fork
 ## ✨ Highlights of Akeno Bot
 
 -   Fully Modular Design
+-   Object Oriented
 -   Easy to use
 -   Totally free to use and distributed by [Fantox](https://github.com/FantoX001)
 -   Written in [TypeScript](https://www.typescriptlang.org/)
