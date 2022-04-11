@@ -1,14 +1,18 @@
 <div align="center">
 <a href="https://ibb.co/6P3BsqY"><img src="https://i.ibb.co/2tDNKpq/21-akeno-wallpaper-Images-of-Akeno-Himejima-Wallpaper-industrious-info.png" alt="21-akeno-wallpaper-Images-of-Akeno-Himejima-Wallpaper-industrious-info" border="0"></a>
 
-# **AKENO : ADVANCED WHATSAPP BOT WITH RICH FEATURES**
+# **AKENO**
+#### **Advanced WhatsApp Bot With Rich Features Developed by [FantoX](https://github.com/FantoX001)**
 
 
 ## [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/918101187835) [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
 
 
-> A Fully Modular and Efficient Bot designed by [Fantox](https://github.com/FantoX001) <br>
+> A Fully Modular, fast and Efficient Bot. <br>
 
+    
+    
+    
 Button : If you are deploying normally
 
 
@@ -31,30 +35,29 @@ Button : If you are deploying from a fork
 -   Built with [Baileys](https://github.com/adiwajshing/baileys) (The Best
     WhatsApp Library Out Available There)
 
-## 💻 Deploy/Hosting Guide
+## 💻 How to deploy/host Akeno
 
--   Section Moved to⬇️
-    [Nezuko-Guides](https://github.com/Toshiro223/Nezuko-Guides/blob/main/README.md)
+-   Pls check ["Akeno-Guides"](https://github.com/FantoX001/Akeno-Guides/blob/main/README.md) for error free hosting/deployment.
 
-## 🍥 Features of the Repo
 
--   To view all features, click
-    here➡️[Kaoi_featuresList.md](https://github.com/PrajjwalDatir/Kaoi/blob/main/Features.md)
+## 🗏 All features of this repository
 
-## 💪 Contribution
+-   To view all features, click [Features List of Kaoi](https://github.com/PrajjwalDatir/Kaoi/blob/main/Features.md)
 
--   Feel free to open issues regarding any problems or if you have any feature
-    requests
--   Make sure to follow the ESLint Rules while editing the code and run
-    `yarn run prettier-format` before opening PRs
-## Give a ⭐ if this project helped you.
 
-## 🚀Some WhatsApp bots are recommended🚀
+## Suggestion and request
 
-![Kaoi][![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=PrajjwalDatir&repo=Kaoi&theme=buefy)](https://github.com/PrajjwalDatir/kaoi)
+-   If you have any suggestion then feel free to suggest. I will be happy to reply 😇.
+-   Same goes for any request too 😇.
 
-![Chitoge][![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ShineiIchijo&repo=Chitoge&theme=buefy)](https://github.com/ShinNouzen/Chitoge)
 
-![Cara][![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=iamherok&repo=Cara_public&theme=buefy)](https://github.com/iamherok/Cara_public)
+## Other popular whatsapp bots with same functionality:
 
-![Yotsuba][![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=Whatup364&repo=Yotsuba-Bot&theme=buefy)](https://github.com/Whatup364/Yotsuba-Bot)
+-   [Bosco Bot](https://github.com/pepesir/Bosco) - Written in JavaScript
+
+-   [Chitoge Bot](https://github.com/ShinNouzen/Chitoge) - Written in TypeScript
+
+-   [Yotsuba Bot](https://github.com/Whatup364/Yotsuba-Bot) - Written in TypeScript
+
+
+## Pls give a ⭐ to this repo if you like my project.
