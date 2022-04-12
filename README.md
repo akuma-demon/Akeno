@@ -7,20 +7,18 @@
 
 ## [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/918101187835) [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
 
-
-> A Fully Modular, fast and Efficient Bot. <br>
-
+<br/>
+A Fully Modular, fast and Efficient Bot. <br>
+<br/>
     
     
-    
-Button : If you are deploying normally
-
+<br/>   
+Deply Akeno form Heroku
+<br/>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/FantoX001/Akeno-Whatsapp-Bot)
+<br/><br/>
 
-Button : If you are deploying from a fork
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 </div><br/>
 <br/>
