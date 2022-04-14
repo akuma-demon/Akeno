@@ -34,7 +34,7 @@
  ​        ​await​ ​this​.​client​.​sendWA​(​`​${​tag​}​,​${​JSON​.​stringify​(​json​)​}​`​) 
  ​        ​await​ ​this​.​client​.​sendMessage​( 
  ​                                        ​caller​, 
- ​                                        ​`You'll be blocked for calling the bot, Baka!`​, 
+ ​                                        ​`Ara ara, you'll be blocked for calling the bot, Baka!`​, 
  ​                                        ​MessageType​.​text 
  ​                                ​)​; 
  ​                                ​await​ ​this​.​client​.​blockUser​(​caller​)​; 
