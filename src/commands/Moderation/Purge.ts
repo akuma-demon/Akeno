@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
         )
             M.reply('Only the group owner can use this command')
         if (!M.groupMetadata?.admins?.includes(this.client.user.jid))
-            return void M.reply("I can't remove without being an admin")
+            return void M.reply("Ara ara, i can't remove without being an admin")
         if (!this.purgeSet.has(M.groupMetadata?.id || '')) {
             this.addToPurge(M.groupMetadata?.id || '')
             return void M.reply(
