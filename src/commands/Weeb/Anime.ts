@@ -24,7 +24,7 @@ export default class Command extends BaseCommand {
 		{ joined }: IParsedArgs
 	): Promise<void> => {
 		if (!joined)
-			return void (await M.reply(`Give me an anime title to search, Baka!`));
+			return void (await M.reply(`Ara ara, give me an anime title to search !`));
 		const chitoge = joined.trim();
 		const anime = await malScraper
 			.getInfoFromName(chitoge)
