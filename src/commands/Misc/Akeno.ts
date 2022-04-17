@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const chitoge =
-			'https://telegra.ph/file/fa673b13abda5660d7f37.mp4';
+			'https://c.tenor.com/HXozyFon55kAAAAC/highschooldxd-akeno.gif';
 		return void this.client.sendMessage(
 			M.from,
 			{ url: chitoge },
@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `❤️ *AKENO* ❤️\n\n🏮 *Description: A Fully Oriented Whatsapp Bot Based on Chitoge Don't forget to give a star to the repo before fork.*\n\n 🌟*CHITOGE: https://github.com/ShineiIchijo/Chitoge*\n\n 📒*Chitoge-Guide: https://github.com/ShineiIchijo/Chitoge-Guides*\n\n ❤️*NEZUKO:https://github.com/Toshiro223/Nezuko*\n\n 📒*Nezuko-Guide:https://github.com/Toshiro223/Nezuko-Guides*\n\n`,
+				caption: `❤️ *AKENO* ❤️\n\n🏮 *Description: A Fully Oriented Whatsapp Bot designed by Fantox. Don't forget to give a star to my repo before fork.*\n\n 🌟*Akeno: https://github.com/FantoX001/Akeno-Whatsapp-Bot*\n\n 📒*Akeno's-Guide: https://github.com/FantoX001/Akeno-Guides*\n\n`,
 			}
 		);
 	};
