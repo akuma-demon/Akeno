@@ -26,9 +26,9 @@ export default class Command extends BaseCommand {
             caption: `Konnichiwa 👋 I'm 𝔸𝕜𝕖𝕟𝕠 !
 
 ╭────────────┈
-│ ᴜꜱᴇʀ: *${M.sender.username}*
-│ ɴᴀᴍᴇ: *𝔸𝕜𝕖𝕟𝕠*
-│ ᴘʀᴇꜰɪx: *${this.client.config.prefix}*
+│ ᴜꜱᴇʀ ɴᴀᴍᴇ: *${M.sender.username}*
+│ ᴍʏ ɴᴀᴍᴇ: *𝔸𝕜𝕖𝕟𝕠*
+│ ᴍʏ ᴘʀᴇꜰɪx: *${this.client.config.prefix}*
 ╰────────────┈
 🧣 ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ɪꜱꜱᴜᴇꜱ ᴡɪᴛʜ ᴛʜᴇ ʙᴏᴛ ᴏʀ ᴀɴʏ ᴇʀʀᴏʀ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ Fantox. ᴛʏᴘᴇ " ${this.client.config.prefix}ᴏᴡɴᴇʀ " ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ!
 
@@ -114,7 +114,7 @@ export default class Command extends BaseCommand {
 
 ━━━❰ 𝗠𝗼𝗱𝗿𝗮𝘁𝗶𝗼𝗻 ❱━━━
 
-❆ ${this.client.config.prefix}ᴀᴄᴛɪᴠᴀᴛᴇ❆
+❆ ${this.client.config.prefix}ᴀᴄᴛɪᴠᴀᴛᴇ
 ❆ ${this.client.config.prefix}ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇ
 ❆ ${this.client.config.prefix}ᴅᴇᴍᴏᴛᴇ
 ❆ ${this.client.config.prefix}ɢʀᴏᴜᴘᴄʜᴀɴɢᴇ
@@ -138,7 +138,7 @@ export default class Command extends BaseCommand {
 
 ━━━❰ 𝗡𝘀𝗳𝘄 ❱━━━
 
-☣ No NSFW command is programmed !! This bot is not made for NSFW groups.
+☣ ɴᴏ ɴꜱꜰᴡ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ᴘʀᴏɢʀᴀᴍᴍᴇᴅ !! ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɴᴏᴛ ᴍᴀᴅᴇ ꜰᴏʀ ɴꜱꜰᴡ ɢʀᴏᴜᴘꜱ.
 
 
 ╭───────────────╮
