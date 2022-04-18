@@ -18,7 +18,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            'https://c.tenor.com/GhIZyo31uhEAAAAC/akeno-akeno-himejima.gif'
+            'https://telegra.ph/file/94746cfd89b797c3de9b7.gif'
         ]
         let well = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: well }, MessageType.video, {quoted:M.WAMessage,
@@ -142,8 +142,8 @@ export default class Command extends BaseCommand {
 
 
 ╭───────────────╮
-│     𝔸𝕜𝕖𝕟𝕠    │
-│  𝔹𝕪: 𝔽𝕒𝕟𝕥𝕠𝕩  │
+│     𝔸𝕜𝕖𝕟𝕠    
+│  𝔹𝕪: 𝔽𝕒𝕟𝕥𝕠𝕩  
 ╰───────────────╯
 ` }
         )
