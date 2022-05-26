@@ -18,7 +18,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            'https://telegra.ph/file/94746cfd89b797c3de9b7.gif'
+            'https://telegra.ph/file/a3921afb1c290077cf867.mp4'
         ]
         let well = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: well }, MessageType.video, {quoted:M.WAMessage,
@@ -30,7 +30,7 @@ export default class Command extends BaseCommand {
 │ ᴍʏ ɴᴀᴍᴇ: *𝔸𝕜𝕖𝕟𝕠*
 │ ᴍʏ ᴘʀᴇꜰɪx: *${this.client.config.prefix}*
 ╰────────────┈
-🧣 ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ɪꜱꜱᴜᴇꜱ ᴡɪᴛʜ ᴛʜᴇ ʙᴏᴛ ᴏʀ ᴀɴʏ ᴇʀʀᴏʀ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ Fantox. ᴛʏᴘᴇ " ${this.client.config.prefix}ᴏᴡɴᴇʀ " ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ!
+🧣 ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ɪꜱꜱᴜᴇꜱ ᴡɪᴛʜ ᴛʜᴇ ʙᴏᴛ ᴏʀ ᴀɴʏ ᴇʀʀᴏʀ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ Akuma. ᴛʏᴘᴇ " ${this.client.config.prefix}ᴏᴡɴᴇʀ " ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ!
 
 〽️𝐓𝐲𝐩𝐞 ${this.client.config.prefix}Akeno 𝐅𝐨𝐫 𝐁𝐨𝐭 𝐆𝐢𝐭𝐇𝐮𝐛 𝐋𝐢𝐧𝐤!
 ━━━❰ 𝗚𝗲𝗻𝗲𝗿𝗮𝗹 ❱━━━
@@ -143,7 +143,7 @@ export default class Command extends BaseCommand {
 
 ╭───────────────╮
 │     𝔸𝕜𝕖𝕟𝕠    
-│  𝔹𝕪: 𝔽𝕒𝕟𝕥𝕠𝕩  
+│  𝔹𝕪: 𝕒𝕜𝕦𝕞𝕒  
 ╰───────────────╯
 ` }
         )
